@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 'Open Sans', sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -27,13 +27,14 @@ h1 {
   margin: 0;
 }
 
-.columns small {
+.columns h3 {
   font-size: .875rem;
   font-style: italic;
 }
 
 .columns {
   display: flex;
+  padding: 0 1.5rem;
 }
 
 .columns div {
@@ -42,7 +43,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   padding: .75rem;
-
 }
 
 .column-1 {
@@ -85,6 +85,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.btn:hover {
   background-color: black;
+}
+
+.btn-small {
+  background-color: #333;
 }
